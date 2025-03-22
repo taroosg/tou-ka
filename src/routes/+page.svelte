@@ -2,8 +2,6 @@
   let text = '';
 </script>
 
-<!-- デザインをかえる -->
-
 <div class="min-h-screen bg-gray-50 dark:bg-gray-900 p-4 sm:p-6 flex flex-col justify-center items-center">
   <div class="w-full max-w-lg mx-auto p-5 sm:p-7">
 
