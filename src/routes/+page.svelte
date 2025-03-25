@@ -2,7 +2,7 @@
   let text = '';
 </script>
 
-<div class="min-h-screen bg-gray-50 dark:bg-gray-900 p-4 sm:p-6 flex flex-col justify-center items-center">
+<div class="h-dvh bg-gray-50 dark:bg-gray-900 p-4 sm:p-6 flex flex-col justify-center items-center">
   <div class="w-full max-w-lg mx-auto p-5 sm:p-7">
 
     <div class="mb-5 text-center">
@@ -13,7 +13,7 @@
       <textarea
         id="text"
         bind:value={text}
-        placeholder="投稿したいテキストを入力してボタンを押すと投稿画面に反映されます&#13;未入力の場合は投稿画面が空欄で表示されます"
+        placeholder="投稿したいテキストを入力してボタンを押すと投稿画面に反映されます．&#13;未入力の場合は投稿画面が空欄で表示されます．"
         class="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 focus:outline-none focus:border-blue-500 bg-gray-50 dark:bg-gray-900 dark:text-white resize-none h-36 text-base"
       ></textarea>
     </div>
